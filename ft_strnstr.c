@@ -6,7 +6,7 @@
 /*   By: mabdessm <mabdessm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/25 13:40:32 by mabdessm          #+#    #+#             */
-/*   Updated: 2024/04/25 18:45:04 by mabdessm         ###   ########.fr       */
+/*   Updated: 2024/04/25 19:43:59 by mabdessm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	while (i < len && (big[i] != '\0'))
 	{
 		j = 0;
-		while (little[j] == big[i + j])
+		while (little[j] == big[i + j] && (little[j] != '\0'))
 		{
 			j++;
 		}
