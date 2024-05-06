@@ -6,7 +6,7 @@
 /*   By: mabdessm <mabdessm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/01 11:02:03 by mabdessm          #+#    #+#             */
-/*   Updated: 2024/05/01 15:06:36 by mabdessm         ###   ########.fr       */
+/*   Updated: 2024/05/06 16:36:30 by mabdessm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ static int	get_int_len(int n)
 	return (len);
 }
 
-char	*create_char(int n, int len, char *res)
+static char	*create_char(int n, int len, char *res)
 {
 	int	i;
 	int	j;
